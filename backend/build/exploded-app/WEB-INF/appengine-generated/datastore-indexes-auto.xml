@@ -1,0 +1,11 @@
+<!-- Indices written at Wed, 25 Jan 2017 18:42:35 CET -->
+
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="ConversationSS" ancestor="false" source="auto">
+        <property name="ownerName" direction="asc"/>
+        <property name="messages.deliveryTime" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>

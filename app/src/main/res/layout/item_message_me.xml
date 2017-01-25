@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    >
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></FrameLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_bubble_small_red"
+        android:layout_gravity="left"
+        android:gravity="left"
+
+        android:padding="7dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="18dp">
+
+        <TextView
+            android:id="@+id/msgTextBubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MsgText..."
+            android:textSize="17dp"
+            android:textIsSelectable="false"
+            android:gravity="left"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/msgDateBubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="14dp"
+            android:layout_gravity="left" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">Messenger</string>
+    <string name="centreText">Centre Text</string>
+    <string name="userName">Username</string>
+    <string name="password">Password</string>
+    <string name="logo">logo</string>
+    <string name="login">Log in</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="msgSent">Message send!</string>
+    <string name="wrongCredentials">Wrong username or password!</string>
+</resources>

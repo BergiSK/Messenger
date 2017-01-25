@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="centreText">Stredny text</string>
+    <string name="userName">Prezývka</string>
+    <string name="password">Heslo</string>
+    <string name="logo">logo</string>
+    <string name="login">Prihlásiť sa</string>
+    <string name="msgSent">Správa odoslaná</string>
+    <string name="wrongCredentials">Nesprávna prezývka alebo heslo!</string>
+</resources>

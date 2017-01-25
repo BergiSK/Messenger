@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GUI.NewMessageFragment"
+    android:padding="25dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/reciever"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Reciever"
+            android:padding="10dp"
+            android:background="@drawable/new_message_edit_text"/>
+
+        <EditText
+            android:id="@+id/msgText"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:hint="Message Text"
+            android:gravity="top|left"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/new_message_edit_text"
+            android:padding="10dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Message"
+            android:id="@+id/sendMsg"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</FrameLayout>

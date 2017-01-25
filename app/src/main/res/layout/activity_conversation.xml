@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingTop="10dp"
+
+    tools:context=".GUI.ConversationActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:gravity="bottom"
+        android:layout_marginBottom="65dp">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/messagesListView"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:paddingLeft="10dp"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_menu_start_conversation"/>
+        <EditText
+            android:id="@+id/textToSend"
+            android:background="@android:color/transparent"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:hint="Write a message"
+            android:paddingLeft="15dp" />
+
+        <Button
+            android:id="@+id/sendMsgInConversation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_send"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>
